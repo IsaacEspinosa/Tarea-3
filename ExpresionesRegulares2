@@ -1,0 +1,6 @@
+digitos->[0-9]
+unDigito->digitos
+dosDigitos-> digito digito
+tresDigitos-> [0-1] digitos digitos|2 [0-4] digitos|25 [0-5]
+op->unDigito|dosDigitos|tresDigitos
+ip->op.op.op.op   
